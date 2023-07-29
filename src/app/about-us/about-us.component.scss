@@ -1,0 +1,153 @@
+.layer1
+{
+    background-image: linear-gradient(rgba(224, 73, 13, 0.2),#24262be2),url('about-us.jpg');
+    height: 80vh;
+    background-size:cover;
+}
+#link a:hover{
+    background-color: hsl(261, 33%, 90%);
+    border-radius: 10px;
+    padding: 4px 5px;
+    margin: 4px;
+}
+
+html {
+	box-sizing: border-box;
+	font-family: "Nothing You Could Do";
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+
+
+.card-container {
+	position: relative;
+	width: 100%;
+	height: 80vmin;
+}
+
+.card {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	//background-color: rgb(107, 51, 107);
+    background-size: cover;
+    background-repeat: no-repeat;
+	//background-color: darken(white, 2%);
+	border-radius: 2px;
+	box-shadow: 2px 2px 5px rgba(#111, .35);
+	transition: transform .35s ease-out;
+	transform: translate(var(--x), var(--y)) scale(.35) rotate(var(--angle));
+	will-change: transform;
+
+	&:hover {
+		transform: scale(1) rotate(0deg);
+		z-index: 1;
+
+		&:before {
+			opacity: 1;
+		}
+	}
+}
+
+.card:before {
+	//content: "";
+	display: block;
+	width: 90%;
+	height: 80%;
+	margin: 5%;
+	//background: var(--image) center center no-repeat;
+	//background-size: cover;
+	box-shadow: inset 0 0 5px rgba(#222, .35);
+	border-radius: 2px;
+	filter: sepia(.2) brightness(.9) contrast(1.2);
+	transition: opacity .35s ease-out;
+	opacity: .5;
+	will-change: opacity;
+}
+
+.card:after {
+	display: block;
+	//content: var(--caption);
+	font-weight: 500;
+	color: #555;
+	font-size: 3vmin;
+	opacity: .75;
+	text-align: center;
+}
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.layer3 {
+    position: relative;
+    overflow: hidden!important;
+}
+
+.layer2in3 {
+    text-align: center;
+    position: absolute;
+    background-color: rgb(201, 96, 58);
+    top: 0%;
+    width: 94%;
+    height: 96%;
+    opacity: 0;
+    transition: .5s opacity;
+}
+
+.layer3:hover .layer2in3 {
+    opacity: 1;
+    overflow: hidden!important;
+}
+
+.layer2in3 h3 {
+    position: relative;
+    left: 150%;
+    transition: 1s left;
+    margin: 5rem 0rem 0rem;
+}
+
+.layer3:hover .layer2in3 h3 {
+    left: 0%;
+}
+
+.layer2in3 p {
+    position: relative;
+    left: 150%;
+    transition: 1s left;
+    padding: 1.5rem 0rem;
+}
+
+.layer3:hover .layer2in3 p {
+    left: 0%;
+}
+ 
+
+
+#btn1{
+    font-size: 17px;
+    color: black;
+    cursor: pointer;
+}
+#btn1:hover{
+    background: rgb(201, 96, 58);
+    color: #fff;
+}
+.bgTitle
+{
+    background-color: hsl(261, 59%, 88%, 0.6);
+}
+
+.fourthLayer1
+{
+	background-image: url('istockphoto-1178013034-612x612.jpg');
+    background-size:contain;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+}

@@ -1,0 +1,12 @@
+.layer1
+{
+    background-image: linear-gradient(rgba(224, 73, 13, 0.2),#24262be2),url('pexels-bich-tran-669996.jpg');
+    height: 80vh;
+    background-size:cover;
+}
+#link a:hover{
+    background-color: hsl(261, 33%, 90%);
+    border-radius: 10px;
+    padding: 4px 5px;
+    margin: 4px;
+}

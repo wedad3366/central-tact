@@ -1,0 +1,76 @@
+.smallnav
+{
+    display: block;
+}
+.firstnav{
+    background-color: hsl(261, 59%, 88%,0.6);
+}
+.lastpart
+{
+    background-color: rgba(255,69,0,0.1);
+}
+.lastpart a
+{
+    position: relative;
+    text-decoration: none;
+    margin: 0 12px;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.6s;
+}
+.lastpart a:hover
+{
+    background-color: black;
+    border-radius: 20px;
+    padding: 8px 9px;
+}
+
+header{
+    position: fixed;
+    top: 6%;
+    left: 0;
+    transition: 0.6s;
+    z-index: 5;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+#btn1{
+    background: transparent;
+    padding: 11px 18px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    color: hsl(261, 59%, 88%);
+    border: 2px solid hsl(261, 59%, 88%);
+    cursor: pointer;
+}
+
+#btn1:hover{
+    background: hsl(261, 59%, 88%);
+    color: #fff;
+}
+
+header ul li{
+    position: relative;
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+    text-decoration: none;
+    margin: 0 12px;
+    color: #000;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.6s;
+}
+
+header ul li a:hover{
+    background-color: hsl(261, 59%, 88%);
+    border-radius: 20px;
+    padding: 8px 9px;
+}
+

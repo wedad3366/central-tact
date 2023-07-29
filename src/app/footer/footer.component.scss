@@ -1,0 +1,45 @@
+.footer{
+    background-image: linear-gradient(#24262be2,#24262be2),url(istockphoto-1022082318-640x640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer h4{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+footer ul li {
+    font-size: 16px;
+    color: #d3d0d0;
+    text-decoration: none;
+    display: block;
+ 
+}
+footer ul li a{
+    font-size: 16px;
+    color: #d3d0d0;
+    text-decoration: none;
+    display: block;
+}
+
+.group li a:hover{
+    color: hsl(261, 59%, 88%);
+    background-color: gray;
+    border-radius: 10px;
+    padding: 6px 7px;
+}
+
+.icons:hover{
+    color: hsl(261, 59%, 88%);
+    background-color: gray;
+    border-radius: 20px;
+    padding: 8px 9px;
+}
+
+.smallFooter
+{
+    font-size: 16px;
+    color: #d3d0d0;
+}
